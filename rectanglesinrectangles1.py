@@ -55,12 +55,4 @@ if __name__ == '__main__':
     kwadrat = [ (0, 0), (a, 0), (a, a), (0, a) ]
     narysuj_wieloboki(kwadrat, liczba_kwadratów)
     
-    turtle.color('red')
-    
-    liczba_pięciokątów = 25
-    bok = 350
-    pięciokąt = [ (-bok, -bok), (bok/2, bok), (bok, bok/2),
-                 (2*bok, bok*2), (2.5*bok, bok/1.5)]
-    narysuj_wieloboki(pięciokąt, liczba_pięciokątów)
-
     turtle.done()
